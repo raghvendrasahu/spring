@@ -84,7 +84,7 @@
 					<overwrite>true</overwrite>
 					<repository>http://13.233.204.60:8086/s101j/data</repository>
 					<license-directory>${basedir}</license-directory>
-					<label>${git.commit.id.describe-short}</label>
+					<label>${git.commit.id.abbrev}</label>
 					<rpkey></rpkey>
 				</configuration>
 				<executions>
